@@ -1,0 +1,43 @@
+/*******************************************************************************
+		                MASTER DO-FILE
+********************************************************************************
+													   Applied Microeconometrics
+															   Empirical Project
+																	  Do-File 01
+	
+		PURPOSE:	Root file that manages the execution of all 
+					subordinated do-files.
+		
+		OUTLINE:	PART 1:	Prepare Folder Paths
+					PART 2: Analysis
+					PART 3: Dataset Preparation 
+					
+					
+********************************************************************************
+			PART 1: Prepare Folder Paths
+*******************************************************************************/
+
+*------------------------------------------------------------------------------*
+*	PART 1.1: Set globals for do-file routines
+*------------------------------------------------------------------------------*
+
+	global root	"C:\Users\Emilie\Documents\Emilie\Uni\Master\Nottingham\2_Applied Microeconometrics\Group_Project"
+
+	global temp		"$root\00_temp"
+	global input	"$root\01_input"
+	global scripts	"$root\02_scripts"
+	global output	"$root\03_output"
+	global results	"$root\04_results"
+	
+
+********************************************************************************
+*			PART 2: Descriptive Analysis
+********************************************************************************
+
+
+ save $output\newdata
+ 
+********************************************************************************
+*			PART 3: Dataset Preparation 
+********************************************************************************
+
